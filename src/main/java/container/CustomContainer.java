@@ -2,6 +2,10 @@ package container;
 
 import interfaces.Actions;
 
+
+/**
+ * The class that describes the basic actions on an array.
+ */
 public class CustomContainer implements Actions {
 
     private int[] storage;
