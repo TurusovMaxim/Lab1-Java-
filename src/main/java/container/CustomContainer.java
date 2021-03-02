@@ -28,7 +28,6 @@ public class CustomContainer implements Actions {
      *
      * @exception Exception - checks valid conditions.
      */
-
     private void admissibleConditions(int index) throws Exception {
         if (storage == null)
         {
@@ -53,7 +52,6 @@ public class CustomContainer implements Actions {
      *
      * @exception Exception - checks valid conditions.
      */
-
     public int getElement(int index) throws Exception {
 
         admissibleConditions(index);
@@ -70,7 +68,6 @@ public class CustomContainer implements Actions {
      *
      * @param item - a future element of the array.
      */
-
     public void setElement (int item) {
         if (numberOfObjects == storageSize) {
             storage = addition(item);
@@ -87,7 +84,6 @@ public class CustomContainer implements Actions {
      *
      * @param item - a future element of the array.
      */
-
     private int[] addition(int item) {
         int[] newStorage = new int[storageSize + 1];
 
@@ -106,7 +102,6 @@ public class CustomContainer implements Actions {
      *
      * @param index - an index of an item to remove.
      */
-
     public void deleteElement(int index) throws Exception {
 
         admissibleConditions(index);

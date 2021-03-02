@@ -8,7 +8,6 @@ import java.util.Scanner;
  * Класс контейнер, позволяющий хранить произвольное количество целых чисел.
  * @author TurusovMaxim
  */
-
 public class Program {
 
 
@@ -23,7 +22,6 @@ public class Program {
      *
      * @exception Exception - checks valid conditions.
      */
-
     private static void outputStorage(int storageSize, Actions customContainer) throws Exception {
         System.out.print("The array: [ ");
 
