@@ -39,6 +39,6 @@ class CustomContainerTest {
         System.out.println("deleteElement");
 
         testContainer.deleteElement(0);
-        assertEquals(0, testContainer.getElement(0)); //failed
+        assertEquals(0, testContainer.getElement(0)); //expected fail
     }
 }
